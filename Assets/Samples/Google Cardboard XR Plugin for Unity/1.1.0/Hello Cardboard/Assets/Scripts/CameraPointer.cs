@@ -49,7 +49,7 @@ public class CameraPointer : MonoBehaviour
         else
         {
             // No GameObject detected in front of the camera.
-            m_GazedAtObject?.SendMessage("OnPointerExit");
+            m_GazedAtObject.SendMessage("OnPointerExit");
             m_GazedAtObject = null;
         }
 
