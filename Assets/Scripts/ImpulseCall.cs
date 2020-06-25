@@ -6,17 +6,9 @@ public class ImpulseCall : MonoBehaviour
 {
     public bool brake = false;
     public AudioSource sound;
+    public bool devoDesativar;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     private void OnTriggerEnter(Collider other)
     {
        

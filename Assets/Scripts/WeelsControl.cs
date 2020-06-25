@@ -7,8 +7,11 @@ public class WeelsControl : MonoBehaviour
     public WheelCollider[] rodas;
     public GameObject CG;
     public Rigidbody rdb;
-    public float torque;
+    private float torque;
     public float brake;
+    public float velocidade;
+    public float speedback;
+    public float impulse;
     public AudioSource audiobrake;
     public AudioSource audiowheel;
     // Start is called before the first frame update
@@ -31,7 +34,7 @@ public class WeelsControl : MonoBehaviour
 
     public void ImpulseOn()
     {
-        torque = 1000;
+        torque = impulse;
 
     }
 
@@ -50,7 +53,12 @@ public class WeelsControl : MonoBehaviour
 
     void Continue()
     {
-        torque = 10f;
+        torque = velocidade;
         brake = 000;
+    }
+    
+    public void ImpulseBack ()
+    {
+        torque = speedback;
     }
 }

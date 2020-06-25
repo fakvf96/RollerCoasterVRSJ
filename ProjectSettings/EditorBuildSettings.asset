@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/level1.unity
-    guid: af905a64ef68a4c4697a8b785bae8843
+    path: Assets/Scenes/Menu.unity
+    guid: 714aad02eafd25243a1594611b60581a
+  - enabled: 1
+    path: Assets/Scenes/RollerCoasterSnow.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Florest.unity
+    guid: 0e896505fad0482419ac51885ec4504d
+  - enabled: 1
+    path: Assets/Scenes/iSLAND.unity
+    guid: 0d3cc642396a57746b38ecbafc90a3d1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8d70f4d2c0bc6124a9f72d98df1aa86e,
       type: 2}
